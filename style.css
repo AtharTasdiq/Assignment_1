@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    float: right;
+    margin-bottom: 50px;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: monospace, sans-serif;
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.menu ul li:last-child{
+    margin-right: 100px;
+}
+
+/* introduction styling part start */
+
+.introduction-part{
+    height: 780px;
+
+}
+
+.intro{
+    display: block;
+    float: left;
+    width:40%;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+.intro p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-right: 30%;
+}
+.pic-1{
+    display: block;
+    float: right;
+    width:50%;
+}
+.pic-1 img{
+    width: 600px;
+    height: 600px;
+   
+}
+
+.intro h1{ 
+    font-size: 70px;
+}
+.h1-color{
+    color: #F7AE62;
+}
+
+.intro a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(45deg ,orange , tomato);
+    border-radius: 10px;
+}
+
+/* introduction part 2 */
+
+
+.pic-2 img{
+    width: 600px;
+    height: 600px; 
+}
+.pic-2{
+    display: block;
+    float: left;
+    padding-left: 5%;
+}
+.intro-2{
+    display: block;
+    float: right;
+    width:40%;
+    padding-right: 5%;
+}
+.intro-2 h1{
+    font-size: 70px;
+}
+.intro-2 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.intro-2 a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(45deg ,orange , tomato);
+    border-radius: 10px;
+    line-height: 2;
+}
+.introduction-part2{
+    height: 780px;
+
+}
+
+/* projects part */
+
+.projects-section{
+    padding-bottom: 100px;
+    height: 800px;
+    background-color: #E5E5E5;
+    margin-bottom: 150px;
+}
+
+.projects-section h1{
+   padding-top: 100px;
+   font-size: 70px;
+   text-align: center;
+}
+.project-color{
+    color: #F7AE62;
+}
+.Projects{
+    width: 27%;
+    background-color: white;
+    float: left;
+    margin-top: 100px;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px grey;
+}
+.Projects img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.Projects h3{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:#F7AE62;
+}
+.Projects p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: 500;
+}
+
+/* last section part */
+
+.last-sec{
+    background-image: url(../images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    width: 50%;
+    height:150px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    line-height:3.5;
+    margin-bottom: 100px;
+}
+.h2-part {
+    float:left;
+    padding-left:7%;
+    color:white;
+}
+
+
+.butt-part {
+    float: right;
+    width: 20%;
+    line-height: 9.5;
+    padding-right: 7%;
+}
+.butt-part a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(45deg ,orange , tomato);
+    border-radius: 10px;
+}
+
+/* footer section start */
+
+.footer-section{
+    text-align: center;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.footer-section img{
+    width:40px;
+    height:40px;
+}
+.footer-section h2{
+    color: tomato;
+}
+
+.contact{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: auto;
+  
+}
+.contact h2{
+    font-size: 60px;
+    color: #F7AE62;
+}
+.contact-form{
+    margin-top: 34px;
+}
+.form-design {
+    width: 100%;
+    background: #F2F2F3;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+.contact-form input,textarea {
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+}
+.submit{
+    color: #F7AE62;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    width: 180px;
+    float: left;
+    background-color: gray;
+}
+.submit:hover{
+    background-color: #F7AE62;
+    cursor: pointer ;
+    color: white;
+}
