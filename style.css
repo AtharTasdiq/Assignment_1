@@ -168,10 +168,10 @@ body{
     background-position: cover;
     background-size: cover;
     width: 50%;
-    height:150px;
+    height:236px;
     display: block;
     margin: auto;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     line-height:3.5;
     margin-bottom: 100px;
 }
